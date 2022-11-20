@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        @apply box-border;
+        @apply h-screen;
+        @apply bg-oliveGreen;
+    }
+    li{
+        @apply px-6;
+    }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover{
+    background-image: linear-gradient(
+        to top, 
+        rgba(154, 142, 126, 0.8),
+        hsla(87, 55%, 33%, 0.3)
+        )!important;
+
+}
+
+.nav-item .active {
+    padding-bottom: 5px;
+    border-bottom: 4px solid #3F5426;
+    color: #9A8E7E;
+    font-weight: bold;
+    transition: all ease-in-out 300ms;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-area{
+    scroll-snap-align: center;
+}
