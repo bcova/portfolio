@@ -42,10 +42,3 @@ li {
     text-transform: uppercase;
 }
 
-html {
-    scroll-snap-type: y mandatory;
-}
-
-.scroll-area{
-    scroll-snap-align: center;
-}
