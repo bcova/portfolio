@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-zinc-200">
           Brandon Covarrubias,
         </h1>
-        <span className="text-4xl sm:text-7xl font-bold text-zinc-50 flex">
+        <span className="text-4xl sm:text-7xl font-bold text-zinc-50">
           I'm a<Typewriter options={{
                       strings: ['full-stack developer'],
                       autoStart: true,
