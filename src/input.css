@@ -42,3 +42,12 @@ li {
     text-transform: uppercase;
 }
 
+.typer{
+    color:#9A8E7E;
+    margin-left: 21px;
+}
+
+.Typewriter__cursor{
+    color:#9A8E7E;
+    visibility: hidden;
+}

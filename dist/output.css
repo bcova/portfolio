@@ -916,11 +916,6 @@ li{
   color: rgb(228 228 231 / var(--tw-text-opacity));
 }
 
-.text-lemon{
-  --tw-text-opacity: 1;
-  color: rgb(154 142 126 / var(--tw-text-opacity));
-}
-
 .text-stone-50{
   --tw-text-opacity: 1;
   color: rgb(250 250 249 / var(--tw-text-opacity));
@@ -929,11 +924,6 @@ li{
 .text-zinc-700{
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity));
-}
-
-.decoration-zinc-50{
-  -webkit-text-decoration-color: #fafafa;
-          text-decoration-color: #fafafa;
 }
 
 .opacity-0{
@@ -1008,6 +998,16 @@ li {
   text-transform: uppercase;
 }
 
+.typer{
+  color:#9A8E7E;
+  margin-left: 21px;
+}
+
+.Typewriter__cursor{
+  color:#9A8E7E;
+  visibility: hidden;
+}
+
 .hover\:scale-110:hover{
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1071,4 +1071,3 @@ li {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-

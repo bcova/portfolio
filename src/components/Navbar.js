@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const handleClick = () => setNav(!nav);
+
 
   return (
     <div className="fixed w-full flex justify-between items-center list-none text-base py-4 bg-gray-900 text-stone-50 ">

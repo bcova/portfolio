@@ -2,6 +2,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   return (
@@ -11,12 +12,17 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-zinc-200">
           Brandon Covarrubias,
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-zinc-50">
-          I'm a <u className="decoration-zinc-50 text-lemon">full-stack developer</u>
-        </h2>
+        <span className="text-4xl sm:text-7xl font-bold text-zinc-50 flex">
+          I'm a<Typewriter options={{
+                      strings: ['full-stack developer'],
+                      autoStart: true,
+                      loop: true,
+                      wrapperClassName:'typer'}} /> 
+        </span>
+        
         <div>
           <Link to="projects" smooth={true} duration={500} spy={true}>
-            <button className="text-zinc-50 group border-2 px-6 py-3 my-2 flex items-center hover:bg-lemon hover:border-lemon">
+            <button className="text-zinc-50 group border-2 px-6 py-3 my-2 flex items-center hover:bg-lemon hover:border-lemon rounded-md">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
