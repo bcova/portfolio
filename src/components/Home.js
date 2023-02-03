@@ -9,7 +9,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen scroll-area">
       <div className="max-w-[1000px] mx-auto px-8 pt-20 flex flex-col justify-center h-full">
         <p className="text-zinc-50 text-lg">Hello, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-zinc-200">
+        <h1 className="text-4xl sm:text-7xl font-bold text-zinc-50">
           Brandon Covarrubias,
         </h1>
         <span className="text-4xl sm:text-7xl font-bold text-zinc-50">

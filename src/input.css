@@ -24,10 +24,9 @@
 .content-div:hover{
     background-image: linear-gradient(
         to top, 
-        rgba(154, 142, 126, 0.8),
-        hsla(87, 55%, 33%, 0.3)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
         )!important;
-
 }
 
 .nav-item .active {

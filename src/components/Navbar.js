@@ -8,7 +8,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="fixed w-full flex justify-between items-center list-none text-base py-4 bg-gray-900 text-stone-50 ">
+    <div className="fixed w-full flex justify-between items-center list-none text-base py-4 bg-gray-900 text-zinc-50 ">
       <div>
         <img className="w-20 ml-5" src={require("../assets/logov2.png")} alt="Logo" />
       </div>

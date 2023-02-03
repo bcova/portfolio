@@ -22,10 +22,10 @@ const Projects = () => {
                </span>
                <div className='pt-8 text-center'>
                   <a href='https://fluffy-fox-3f6929.netlify.app/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-zinc-700 font-bold text-lg border-2'>Website</button>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon text-zinc-50 font-bold text-lg border-2 '>Website</button>
                   </a>     
                   <a href='https://github.com/GioHiCar/FitnessTrackr_FE'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-zinc-700 font-bold text-lg border-2'>Code</button>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon text-zinc-50 font-bold text-lg border-2'>Code</button>
                   </a>
                </div>
             </div>
@@ -39,10 +39,10 @@ const Projects = () => {
                </span>
                <div className='pt-8 text-center'>
                   <a href='https://frabjous-bavarois-909bfa.netlify.app/'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-zinc-700 font-bold text-lg border-2'>Website</button>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon text-zinc-50 font-bold text-lg border-2'>Website</button>
                   </a>     
                   <a href='https://github.com/bcova/Tic-Tac-Toe'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-zinc-700 font-bold text-lg border-2'>Code</button>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon text-zinc-50 font-bold text-lg border-2'>Code</button>
                   </a>
                </div>
             </div>
@@ -56,10 +56,10 @@ const Projects = () => {
                </span>
                <div className='pt-8 text-center'>
                   <a href='/'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-zinc-700 font-bold text-lg border-2'>Test 1</button>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Test 1</button>
                   </a>     
                   <a href='/'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-zinc-700 font-bold text-lg border-2'>Test 2</button>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Test 2</button>
                   </a>
                </div>
             </div>
