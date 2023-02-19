@@ -35,7 +35,7 @@ function Weather() {
     }else{
         setWeather(<div className="lds-dual-ring"></div>)
     }
-    }, [latt, lon, weather]);
+    }, [latt, lon]);
   if (error) return <p>An error occurred</p>;
 
 
