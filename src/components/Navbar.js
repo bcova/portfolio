@@ -68,25 +68,21 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-black bg-opacity-80 backdrop-blur-md"
         }
       >
-            <video autoPlay="{true}" loop muted className="absolute w-auto 
-            min-w-full min-h-full max-w-none">
-    <source src={require("../assets/code.mp4")} type="video/mp4"/>
-  </video>
         <li className="py-6 text-4xl text-center w-full z-10 menu-item ">
           <Link onClick={handleClick} to="home" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Home</p>
           </Link>
         </li>
         <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500} spy={true}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} spy={true} >
             <p onClick={handleClick}>About</p>
           </Link>
         </li>
         <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500} spy={true}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} spy={true} offset={-110}>
             <p onClick={handleClick}>Skills</p>
           </Link>
         </li>

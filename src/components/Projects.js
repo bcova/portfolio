@@ -6,7 +6,7 @@ import project from '../assets/code.jpg'
 const Projects = () => {
   return (
     <div name='projects' className= 'w-full md:h-screen text-zinc-50 scroll-area'>
-         <div className='p-4 sticky top-[110px] bg-oliveGreen'>
+         <div className='p-4 sticky top-[100px] bg-oliveGreen'>
              <p className='text-4xl font-bold inline border-b-4 text-zinc-50 border-lemon'>Projects</p>
              <p className='py-4'>Check out some of my recent projects</p>
          </div>
