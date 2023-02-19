@@ -32,8 +32,29 @@
 .nav-item .active {
     padding-bottom: 5px;
     border-bottom: 4px solid #3F5426;
-    color: #9A8E7E;
+    color: #b8ab9c;
     font-weight: bold;
+    transition: all ease-in-out 300ms;
+}
+
+.menu-item .active {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: #3F5426;
+    color: #b8ab9c;
+    font-weight: bold;
+    transition: all ease-in-out 300ms;
+}
+
+.nav-item{
+    padding-bottom: 5px;
+    color: #474542;
+    transition: all ease-in-out 300ms;
+}
+
+.menu-item{
+    padding-bottom: 9px;
+    color: #52504e;
     transition: all ease-in-out 300ms;
 }
 

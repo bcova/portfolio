@@ -6,11 +6,11 @@ import project from '../assets/code.jpg'
 const Projects = () => {
   return (
     <div name='projects' className= 'w-full md:h-screen text-zinc-50 scroll-area'>
-     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-         <div className='pb-8'>
+         <div className='p-4 sticky top-[110px] bg-oliveGreen'>
              <p className='text-4xl font-bold inline border-b-4 text-zinc-50 border-lemon'>Projects</p>
-             <p className='py-6'>Check out some of my recent projects</p>
+             <p className='py-4'>Check out some of my recent projects</p>
          </div>
+     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 rounded-md text-center'>
           <div  style={{backgroundImage:`url(${fit})`}}

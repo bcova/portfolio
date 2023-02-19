@@ -51,13 +51,13 @@ const Navbar = () => {
         {!nav ? (
           <img
             src={require("../assets/burger.png")}
-            className="w-9 mr-6 transition-all duration-300"
+            className="w-9 mr-6"
             alt="burger"
           />
         ) : (
           <img
             src={require("../assets/cross.png")}
-            className="w-5 mr-6 transition-all duration-300"
+            className="w-8 mr-6 transition-all duration-300 relative left-12 -translate-x-14"
             alt="close"
           />
         )}
@@ -68,31 +68,35 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-black bg-opacity-60 filter backdrop-blur-md flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl text-center  w-full">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            <video autoPlay="{true}" loop muted className="absolute w-auto 
+            min-w-full min-h-full max-w-none">
+    <source src={require("../assets/code.mp4")} type="video/mp4"/>
+  </video>
+        <li className="py-6 text-4xl text-center w-full z-10 menu-item ">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Home</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>About</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Skills</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center">
-          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+          <Link onClick={handleClick} to="projects" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Projects</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Contact</p>
           </Link>
         </li>

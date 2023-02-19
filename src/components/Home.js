@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
         <span className="text-4xl sm:text-7xl font-bold text-zinc-50">
           I'm a<Typewriter options={{
-                      strings: ['full-stack developer'],
+                      strings: ['Front-End Developer'],
                       autoStart: true,
                       loop: true,
                       wrapperClassName:'typer'}} /> 

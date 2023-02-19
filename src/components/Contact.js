@@ -5,7 +5,7 @@ const Contact = () => {
     <div name='contact' className='w-full h-screen flex justify-center items-center p-4 scroll-area'>
         <form method='POST' action='https://getform.io/f/8d6019f6-b493-46c2-895f-427e73583556' className='flex flex-col max-w-[600px] w-full pt-20 '>
             <div className='pb-8'>
-                <p className='text-4x font-bold inline border-b-4 border-lemon text-zinc-50'>Contact</p>
+                <p className='text-4xl font-bold inline border-b-4 border-lemon text-zinc-50'>Contact</p>
                 <p className='text-zinc-50 py-4 '> Submit the form below or shoot me an email - <a className="underline underline-offset-4 animate-pulse" href="mailto:  brandoncova@gmail.com"> brandoncovarrubias@gmail.com</a></p>
             </div>
             <input className='bg-zinc-100 p-2 rounded-md' type="text" placeholder='Name' name='name' required />
