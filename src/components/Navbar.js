@@ -1,16 +1,21 @@
-import React, { useState} from "react";
+import React, {useState} from "react";
 import { Link } from 'react-scroll'
+import Weather from "./Weather";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
+
   const handleClick = () => setNav(!nav);
-
-
   return (
     <div className="fixed w-full flex justify-between items-center list-none text-base py-4 bg-gray-900 text-zinc-50 z-10">
       <div>
         <img className="w-20 ml-5" src={require("../assets/logov2.png")} alt="Logo" />
+      </div>
+      <div className="text-center">
+      Current Outside Temp:
+       <Weather /> <sup>&#9675;</sup>F
       </div>
       {/* Menu */}
       <ul className="hidden text-lg md:flex cursor-pointer ">
