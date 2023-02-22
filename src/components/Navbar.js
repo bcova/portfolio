@@ -5,6 +5,10 @@ import Weather from "./Weather";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  
+  const saveFile = () => {
+
+  };
 
 
   const handleClick = () => setNav(!nav);
@@ -68,33 +72,36 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-black bg-opacity-80 backdrop-blur-md"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-black bg-opacity-80 backdrop-blur-md pt-28"
         }
       >
-        <li className="py-6 text-4xl text-center w-full z-10 menu-item ">
+        <li className="text-4xl text-center flex-grow w-full z-10 menu-item ">
           <Link onClick={handleClick} to="home" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Home</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+        <li className="text-4xl w-full flex-grow text-center z-10 menu-item ">
           <Link onClick={handleClick} to="about" smooth={true} duration={500} spy={true} >
             <p onClick={handleClick}>About</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+        <li className="text-4xl w-full flex-grow text-center z-10 menu-item ">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500} spy={true} offset={-110}>
             <p onClick={handleClick}>Skills</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+        <li className="text-4xl w-full flex-grow text-center z-10 menu-item ">
           <Link onClick={handleClick} to="projects" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Projects</p>
           </Link>
         </li>
-        <li className="py-6 text-4xl w-full text-center z-10 menu-item ">
+        <li className="text-4xl flex-grow w-full text-center z-10 menu-item ">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500} spy={true}>
             <p onClick={handleClick}>Contact</p>
           </Link>
+        </li>
+        <li className=" bg-slate-200 bg-opacity-20 flex justify-center text-4xl w-full flex-grow text-center z-10 menu-item-res">
+          <p className="self-center h-fit" onClick={saveFile} download> Download Resume </p>
         </li>
       </ul>
     </div>
