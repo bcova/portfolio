@@ -1,7 +1,8 @@
 import React from "react";
 import fit from '../assets/Fit.png'
 import tictac from '../assets/tictac.png'
-import project from '../assets/code.jpg'
+import todo from '../assets/todo.png'
+import login from '../assets/login.png'
 
 const Projects = () => {
   return (
@@ -47,7 +48,7 @@ const Projects = () => {
                </div>
             </div>
           </div>
-          <div  style={{backgroundImage:`url(${project})`}}
+          <div  style={{backgroundImage:`url(${todo})`}}
            className='shadow-md shadow-zinc-800 group container rounded-md flex justify-center items-center mx-auto content-div '>
 
             <div className='opacity-0 group-hover:opacity-100'>
@@ -55,11 +56,28 @@ const Projects = () => {
                  Standard Project
                </span>
                <div className='pt-8 text-center'>
-                  <a href='/'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Test 1</button>
+                  <a href='https://imaginative-cucurucho-ad254d.netlify.app/'>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Website</button>
                   </a>     
-                  <a href='/'>
-                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Test 2</button>
+                  <a href='https://github.com/bcova/Todo'>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Code</button>
+                  </a>
+               </div>
+            </div>
+          </div>
+          <div  style={{backgroundImage:`url(${login})`}}
+           className='shadow-md shadow-zinc-800 group container rounded-md flex justify-center items-center mx-auto content-div '>
+
+            <div className='opacity-0 group-hover:opacity-100'>
+               <span className='text-2xl font-bold text-zinc-50'>
+                 Standard Project
+               </span>
+               <div className='pt-8 text-center'>
+                  <a href='https://chimerical-faloodeh-2dc686.netlify.app/'>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Website</button>
+                  </a>     
+                  <a href='https://github.com/bcova/login'>
+                    <button  className='text-center rounded-lg px-4 py-3 m-2 hover:bg-lemon hover:border-lemon   text-zinc-50 font-bold text-lg border-2'>Code</button>
                   </a>
                </div>
             </div>
