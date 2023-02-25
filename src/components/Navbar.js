@@ -5,10 +5,7 @@ import Weather from "./Weather";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  
-  const saveFile = () => {
 
-  };
 
 
   const handleClick = () => setNav(!nav);
@@ -101,7 +98,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className=" bg-slate-200 bg-opacity-20 flex justify-center text-4xl w-full flex-grow text-center z-10 menu-item-res">
-          <p className="self-center h-fit" onClick={saveFile} download> Download Resume </p>
+          <a href="https://drive.google.com/file/d/1glVfQxCQkKMaY2nGs6koNv0rMnOBjmYU/view?usp=share_link" className="self-center h-fit" download> Download Resume </a>
         </li>
       </ul>
     </div>
