@@ -98,7 +98,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className=" bg-slate-200 bg-opacity-20 flex justify-center text-4xl w-full flex-grow text-center z-10 menu-item-res">
-          <a href="https://drive.google.com/file/d/1glVfQxCQkKMaY2nGs6koNv0rMnOBjmYU/view?usp=share_link" className="self-center h-fit" download> Download Resume </a>
+          <a href="https://docs.google.com/document/d/11L3OGDWt-HbtWCH_wjYvmk-mPzS92BIZ/edit?usp=sharing&ouid=117350159220233205710&rtpof=true&sd=true" className="self-center h-fit" download> Download Resume </a>
         </li>
       </ul>
     </div>
