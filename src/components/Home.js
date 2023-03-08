@@ -39,7 +39,7 @@ const Home = () => {
               </span>
             </button>
           </Link>
-          <a href="https://drive.google.com/file/d/1glVfQxCQkKMaY2nGs6koNv0rMnOBjmYU/view?usp=sharing"><button className="text-zinc-50 group border-2 px-6 py-3 my-2 flex items-center hover:bg-lemon hover:border-lemon rounded-md">
+          <a href="https://docs.google.com/document/d/11L3OGDWt-HbtWCH_wjYvmk-mPzS92BIZ/edit?usp=sharing&ouid=117350159220233205710&rtpof=true&sd=true"><button className="text-zinc-50 group border-2 px-6 py-3 my-2 flex items-center hover:bg-lemon hover:border-lemon rounded-md">
               Download Resume
             </button></a>
         </div>
